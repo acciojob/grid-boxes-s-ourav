@@ -1,42 +1,9 @@
-/*  your css code here. If applicable */
-.text-white{
-	color:white;
-	padding:2px;
-}
-
-.green{
-	background-color:green;
-}
-
-#grid{
-	height:100vh;
-	width:100vw;
+.container{
 	display:grid;
+	grid-template-columns:repeat(1fr,4);
+	gap:2px;
 }
-#two-cells{
-	grid-column-start:3;
-	grid-column-end:5;
-	border:2px solid white;
-}
-
-#one-cell{
-	grid-column-start:2;
-	grid-column-end:3;
-	border:2px solid white;
-}
-#two-cells5{
-	grid-column-start:2;
-	grid-column-end:4;
-	border:2px solid white;
-}
-#one-col{
-	grid-column-start:1;
-	grid-column-end:5;
-	border:2px solid white;
-}
-#rows4{
-	grid-row-start:2;
-	grid-row-end:6;
-	border:2px solid white;
-
+.item{
+	background-color:green;
+	
 }
