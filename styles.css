@@ -1,11 +1,14 @@
 .container{
 	display:grid;
+	height:100vh;
+	margin:0;
 	grid-template-columns:repeat(4,1fr);
 	grid-template-rows:repeat(5,1fr);
-	gap:2px;
+	grid-gap:10px;
 }
 .item{
 	background-color:green;
 	height:auto;
+	padding:10px;
 	
 }
